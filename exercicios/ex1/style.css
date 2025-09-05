@@ -1,0 +1,47 @@
+h1{
+    color: rgb(111, 111, 111);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+body{
+    background: rgb(247, 208, 214);
+    font-family: 'Times New Roman', Times, serif;
+}
+img{
+    display: flex;
+    align-items: center;
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    justify-content: center;
+    margin: 0 auto;
+
+}
+.texto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(111, 111, 111);
+    text-align: center;
+}
+.icone{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 0 auto;
+}
+@media (max-width : 768px){
+    img{
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+}
+@media (max-width : 425px){
+    img{
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+}
